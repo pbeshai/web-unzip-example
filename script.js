@@ -1,6 +1,6 @@
 // actually do the reading of the zip files when a file is set
 function parseZipFile(zipFile) {
-  console.log('Parsing zip file' + zipFile.name + ' ...');
+  console.log('Parsing zip file ' + zipFile.name + ' ...');
 
   // read the zip file
   JSZip.loadAsync(zipFile).then(
